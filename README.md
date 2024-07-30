@@ -30,7 +30,7 @@ Not yet supported.
 ### Manual Installation
 1. Clone the repository to your local machine.
 ```bash
-git clone https://github.com/KUKHUA/RealTime-TS-V2.git
+git clone https://github.com/KUKHUA/ui-sub-live-rewrite.git
 ```
 
 2. Install the required dependencies. It is recommended to use a virtual environment to avoid conflicts with other Python packages.
