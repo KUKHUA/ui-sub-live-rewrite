@@ -32,7 +32,11 @@ def model_runner():
             # While the queue is not empty, get each item and append it
             recording = audio_data.get()
             while not audio_data.empty():
-                recording = np.concatenate((recording, audio_data.get()))
+                 if recording.ndim > new_audio_data.ndim:
+                    new_audio_data = np.expand_dims(new_audio_data, axis=0)
+                 else:
+                    recording = np.expand_dims(recording, axis=0)
+            recording = np.concatenate((recording, audio_data.get()))
             recording = np.squeeze(recording)
             # Convert numpy array to PCM_16 wav bytes in memory 
             with io.BytesIO() as f:
