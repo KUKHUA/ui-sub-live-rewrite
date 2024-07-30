@@ -11,6 +11,23 @@ As of currently, the application requires a CUDA enabled GPU to run. Apple Sllic
 - **Offline Mode**: Use the application without an active internet connection, ensuring privacy and security for sensitive audio data. Before using the application in offline mode, you need to use the application in online mode once to download the required models.
 
 ## Installation
+
+### Linux Automated Installation
+1. Download the installation script and make it executable.
+```bash
+wget https://raw.githubusercontent.com/KUKHUA/ui-sub-live-rewrite/main/scripts/installer.sh
+chmod +x installer.sh
+```
+
+2. Run the installation script.
+```bash
+./installer.sh
+```
+
+### Windows Automated Installation
+Not yet supported.
+
+### Manual Installation
 1. Clone the repository to your local machine.
 ```bash
 git clone https://github.com/KUKHUA/RealTime-TS-V2.git
