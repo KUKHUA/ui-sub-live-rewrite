@@ -1,5 +1,5 @@
 # RealTime-TS
-This is a Python application built using PyQt and Stable-TS to provide real time subtitling for any audio input (or output) audio device. The application heavly relies on the Stable-TS library to provide the transcription of audio. This application is only supported on Linux operating systems for now. Other operating systems may work, but have not been tested on. It is a work in progress and is not yet ready for production use.
+This is a Python application built using PyQt and Stable-TS to provide real time subtitling for any audio input (or output) audio device. The application heavly relies on the Stable-TS library to provide the transcription of audio. It is a work in progress and is not yet ready for production use.
 
 As of currently, the application requires a CUDA enabled GPU to run. Apple Sllicon and AMD GPUs may work, but have not been tested on. The application is not yet optimized for CPU only usage. Almost any modern NVIDIA GPU should work, with CUDA toolkit installed. 
 
