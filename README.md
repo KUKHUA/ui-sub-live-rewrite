@@ -42,7 +42,6 @@ python main.py
 4. If you get any errors, please check the terminal output and install the required dependencies.
 
 ## Usage
-1. Input the "Audio Delay" value to adjust the delay between the audio and subtitles. It is worth noting this value will be increased by 0.5 to 1 seconds becuase of processing time.
 
 2. Select a transciber model from the dropdown menu. The "distil-large-v3" model is recommended for English transcription. The "distil-large-v3" model is a fine-tuned version of the "large-v3" model. If you are offline, you must use a model that you have downloaded before. If you are online, you can use any model.
 
