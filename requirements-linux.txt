@@ -5,7 +5,7 @@ antlr4-python3-runtime==4.9.3
 appdirs==1.4.4
 attrs==23.2.0
 audioread==3.0.1
-certifi==2024.6.2
+certifi==2024.7.4
 cffi==1.16.0
 charset-normalizer==3.3.2
 cloudpickle==3.0.0
@@ -117,7 +117,7 @@ appdirs==1.4.4
 attrs==23.2.0
 audioread==3.0.1
 av==11.0.0
-certifi==2024.6.2
+certifi==2024.7.4
 cffi==1.16.0
 charset-normalizer==3.3.2
 cloudpickle==3.0.0
