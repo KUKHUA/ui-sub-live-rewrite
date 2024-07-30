@@ -47,7 +47,7 @@ python -m venv RealTime-TS
 # Navigate to the project directory
 cd RealTime-TS-V2
 
-# Change the ending of the file depending on your operating system.
+# Change the ending of the file depending on your operating system (if it exists).
 # Install the required dependencies
 pip install -r requirements-linux.txt
 ```
