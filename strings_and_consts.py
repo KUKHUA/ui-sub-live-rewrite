@@ -53,7 +53,6 @@ data["whisper_cpp_models"] = [
 data["backend"] = [
     "Stable-TS Transformers (HuggingFace)",
     "Stable-TS FasterWhisper",
-    "Whsiper.CPP",
 ]
 data["device"] = []
 data["audio_devices"] = []

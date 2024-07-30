@@ -43,12 +43,16 @@ python main.py
 
 ## Usage
 
-2. Select a transciber model from the dropdown menu. The "distil-large-v3" model is recommended for English transcription. The "distil-large-v3" model is a fine-tuned version of the "large-v3" model. If you are offline, you must use a model that you have downloaded before. If you are online, you can use any model.
+1. Select a backend, "Stable-TS Transformers" is recommended for most use cases.
 
-3. Select a denoiser model from the dropdown menu. Denoiser models are used to remove background noise from the audio input. A denoiser model is not required, but it is recommended to use one for better transcription results. Again, if you are offline, you must use a model that you have downloaded before. If you are online, you can use any model.
+2. Select a working folder, this is where the application will store the subtile output as a .TXT file.
 
-4. Input a "Batch Size" value. The batch size value determines the number of audio frames processed at once. A higher batch size value can increase the transcription speed at higher audio delays, but may crash the program or your GPU to run out of memory. At lower audio delays, a higher batch size value may not increase the transcription speed at all. It is also worth noting that a less powerful GPU may need need a higher batch size to get the same transcription speed as a more powerful GPU. But, a less powerful GPU may not be able to handle a higher batch size value.
+3. Select a transcription model, the default model is the best for most use cases.
 
-5. Select an audio input or output device from the dropdown menu. The application will only transcribe audio from the selected device.
+4. Check the VAD (Voice Activity Detection) box if you want the application to enable VAD.
 
-6. Click the "Start" button to begin transcription. This will hide the previous window, and show the in progress window. To stop transcription, click the "Stop" button.
+5. Select a denoiser model, a denoiser model removes background noise, such as music or traffic.
+
+6. Select a batch size, the batch size is the number of audio frames processed at once. Considering the audio data is short, a smaller batch size is recommended.
+
+7. Select an audio device, this is the audio device the application will transcribe.
