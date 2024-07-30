@@ -11,6 +11,10 @@ git clone https://github.com/KUKHUA/ui-sub-live-rewrite.git
 mv ui-sub-live-rewrite/* .
 rm -rf ui-sub-live-rewrite
 
+# Make run.sh and installer.sh executable
+chmod +x scripts/run.sh
+chmod +x scripts/installer.sh
+
 # Create a python virtual environment named "ui-sub-venv"
 python3 -m venv ui-sub-venv
 

@@ -113,7 +113,7 @@ def launch_ui():
                 # We need to create an empty wav file, so the model can start processing real audio as it is received.
                 # This is because the model takes a while to load.
                 QMessageBox.information(startButton, "Info", strings[language]["preloading_message"])
-                empty_audio = np.zeros(int(float(44100) * float(data["set_audio_delay"])))
+                empty_audio = np.zeros(int(float(44100) * float(5)))
                 audio_data.put(empty_audio)
                 data.update({"start": True}) 
                 time.sleep(15)
